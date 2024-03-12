@@ -1,10 +1,12 @@
  <script>
-    import Reactivity from './Reactivity.svelte';
-    import Header from './Header.svelte'
+   import Reactivity from './Reactivity.svelte';
+   import Header from './Header.svelte'
 	import Props from './Props.svelte';
 	import Logic from './Logic.svelte';
 	import Events from './Events.svelte';
 	import Bindings from './Bindings.svelte';
+	import Store from './Store.svelte';
+	import Motion from './Motion.svelte';
     let name = ' <u>svelte</u>'
     
  </script>
@@ -23,6 +25,13 @@
 
 
  <Bindings/>  
+
+
+ <Store/>
+
+ <Motion/>
+
+ 
  <style>
     /* ⭐️ these are scoped to the component */
     h1{
