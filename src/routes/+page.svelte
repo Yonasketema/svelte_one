@@ -3,6 +3,8 @@
     import Header from './Header.svelte'
 	import Props from './Props.svelte';
 	import Logic from './Logic.svelte';
+	import Events from './Events.svelte';
+	import Bindings from './Bindings.svelte';
     let name = ' <u>svelte</u>'
     
  </script>
@@ -13,10 +15,14 @@
  
  <Reactivity/>
 
- <Props  title="Svelte props"/>
+ <Props  title="Svelte props" on:message={(e)=>alert(e.detail.message)}/>
   
  <Logic/>
 
+ <Events on:message={(e)=>alert(e.detail.message)}/>
+
+
+ <Bindings/>  
  <style>
     /* ⭐️ these are scoped to the component */
     h1{

@@ -9,7 +9,8 @@
        * ⭐️ Each Blocks
        *    - listing data
        *     
-       */
+       * ⭐️ await blocks // Promise 
+       */ 
 
     
       let num = 0
