@@ -1,6 +1,6 @@
 <script>
 	// import { onDestroy } from "svelte";
-	import { count } from "./stores";
+	import { count } from "../routes/stores";
 
     /**
      * ⭐️ store
